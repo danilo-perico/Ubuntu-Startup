@@ -96,7 +96,12 @@ echo -e "${blue} science ${NC}"
 sudo apt-get -y install texlive-science
 echo -e "${blue} cheese ${NC}"
 sudo apt-get -y install cheese
+echo -e "${blue} Core library dependencies (Robô Jimmy) ${NC}"
+sudo apt-get -y install build-essential libncurses5-dev libjpeg-dev mplayer mplayer-skins
 
+#PS3/Bluetooth dependencies:
+echo -e "${blue} PS3/Bluetooth dependencies (Robô Jimmy) ${NC}"
+sudo apt-get -y install bluez-utils bluez-compat bluez-hcidump libusb-dev libbluetooth-dev joystick
 
 #opencv
 echo -e "${blue} Opencv dependências ${NC}"
@@ -114,17 +119,16 @@ sudo apt-get -y install python-dev python-tk python-numpy python3-dev python3-tk
 sudo apt-get -y install ant default-jdk
 sudo apt-get -y install doxygen sphinx-common texlive-latex-extra
 
-
-sudo apt-get -y install build-essential cmake pkg-config
-sudo apt-get -y install libjpeg62-dev 
-sudo apt-get -y install libtiff4-dev libjasper-dev
-sudo apt-get -y install  libgtk2.0-dev
-sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
-sudo apt-get -y install libdc1394-22-dev
-sudo apt-get -y install libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev 
-sudo apt-get -y install python-dev python-numpy
-sudo apt-get -y install libtbb-dev
-sudo apt-get -y install libqt4-dev
+#sudo apt-get -y install build-essential cmake pkg-config
+#sudo apt-get -y install libjpeg62-dev 
+#sudo apt-get -y install libtiff4-dev libjasper-dev
+#sudo apt-get -y install  libgtk2.0-dev
+#sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+#sudo apt-get -y install libdc1394-22-dev
+#sudo apt-get -y install libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev 
+#sudo apt-get -y install python-dev python-numpy
+#sudo apt-get -y install libtbb-dev
+#sudo apt-get -y install libqt4-dev
 cd 
 mkdir opencv
 cd opencv
