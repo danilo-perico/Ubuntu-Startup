@@ -43,8 +43,9 @@ echo -e "${blue} Codeblocks ${NC}"
 sudo apt-get -y install codeblocks
 echo -e "${blue} Kolour Paint ${NC}"
 sudo apt-get -y install kolourpaint4
-echo -e "${blue} Git core ${NC}"
+echo -e "${blue} Git ${NC}"
 sudo apt-get -y install git-core
+sudo apt-get -y install gitk
 echo -e "${blue} Boost ${NC}"
 sudo apt-get -y install libboost-all-dev 
 echo -e "${blue} SSH Server ${NC}"
