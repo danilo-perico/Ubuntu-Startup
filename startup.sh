@@ -74,7 +74,7 @@ sudo apt-get -y install p7zip-full
 sudo apt-get -y install winbind
 sudo apt-get -y install playonlinux
 echo -e "${blue} FFMPEG ${NC}"
-sudo add-apt-repository -y ppa:mc3man/trusty-media
+sudo add-apt-repository ppa:mc3man/gstffmpeg-keep
 sudo apt-get update
 sudo apt-get -y install ffmpeg gstreamer0.10-ffmpeg 
 echo -e "${blue} COPY ${NC}"
