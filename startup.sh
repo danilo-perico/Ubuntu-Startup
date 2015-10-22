@@ -102,6 +102,14 @@ sudo apt-get -y install cheese
 echo -e "${blue} Core library dependencies (Robô Jimmy) ${NC}"
 sudo apt-get -y install build-essential libncurses5-dev libjpeg-dev mplayer mplayer-skins
 
+#Instalando ipython e alguns pacotes úteis
+echo -e "${blue} IPython ${NC}"
+sudo apt-get -y install python-pip
+sudo -H pip install ipython[notebook]
+sudo -H pip install numpy scipy matplotlib
+sudo -H pip install sklearn
+sudo -H pip install scikit-learn
+
 #PS3/Bluetooth dependencies:
 echo -e "${blue} PS3/Bluetooth dependencies (Robô Jimmy) ${NC}"
 sudo apt-get -y install bluez-utils bluez-compat bluez-hcidump libusb-dev libbluetooth-dev joystick
