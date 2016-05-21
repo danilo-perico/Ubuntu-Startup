@@ -110,11 +110,25 @@ apt-get -y install build-essential libjpeg-dev mplayer mplayer-skins
 echo -e "${blue} Python ${NC}"
 sleep 1
 
+echo -e "${blue} Python-Numpy ${NC}"
 apt-get -y install python-numpy
+echo -e "${blue} Python-Scipy ${NC}"
+apt-get -y install python-scipy
+echo -e "${blue} Python-Scikit-learn ${NC}"
+apt-get -y install python-scikits-learn
+echo -e "${blue} Python-Sklearn ${NC}"
+apt-get -y install python-sklearn
+echo -e "${blue} Python-Matplotlib ${NC}"
 apt-get -y install python-matplotlib
+echo -e "${blue} Python-Pygame ${NC}"
 apt-get -y install python-pygame
+echo -e "${blue} Python-OpenCV ${NC}"
 apt-get -y install python-opencv
+echo -e "${blue} Python-PIP ${NC}"
 apt-get -y install python-pip
+echo -e "${blue} Ipython - notebook ${NC}"
+pip install ipython[notebook]
+
 
 echo -e "${blue} Autoremove ${NC}"
 apt-get -y autoremove
