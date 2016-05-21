@@ -113,6 +113,7 @@ sleep 1
 apt-get -y install python-numpy
 apt-get -y install python-matplotlib
 apt-get -y install python-pygame
+apt-get -y install python-opencv
 apt-get -y install python-pip
 
 echo -e "${blue} Autoremove ${NC}"
