@@ -76,6 +76,8 @@ echo -e "${blue} FileZilla ${NC}"
 apt-get -y install filezilla
 echo -e "${blue} Arduino ${NC}"
 apt-get -y install arduino
+echo -e "${blue} Retext ${NC}"
+apt-get -y install retext
 echo -e "${blue} CIFS - mapear rede ${NC}"
 apt-get -y install cifs-utils 
 echo -e "${blue} Curses.h ${NC}"
