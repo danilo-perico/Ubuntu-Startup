@@ -105,6 +105,8 @@ echo -e "${blue} Xindy ${NC}"
 apt-get -y install xindy
 echo -e "${blue} cheese ${NC}"
 apt-get -y install cheese
+echo -e "${blue} v4l ${NC}"
+apt-get -y install v4l-utils
 echo -e "${blue} Core library dependencies (Robô Jimmy) ${NC}"
 apt-get -y install build-essential libjpeg-dev mplayer mplayer-skins
 
